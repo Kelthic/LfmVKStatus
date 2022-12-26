@@ -21,7 +21,7 @@ def main():
     return track 
     
 def get_status():
-    usr_id=VKUSEID #numbers, not strings
+    usr_id=VKUSERID #numbers, not strings
     status=api.users.get(user_id=usr_id, fields='status')
     return status
     
